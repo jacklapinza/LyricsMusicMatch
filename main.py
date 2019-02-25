@@ -47,7 +47,7 @@ while True:
     if artista == "quit":
         exit()
 
-    # RICHIESTA API -- RESTITUISCE UN RESPONSE BODY CHE VA SUCCESSIVAMENTO MANIPOLATO PER PULIRLO DAI CARATTERI SUPERLI
+    # RICHIESTA API -- RESTITUISCE UN RESPONSE BODY CHE VA SUCCESSIVAMENTO MANIPOLATO PER PULIRLO DAI CARATTERI SUPERFLUI
     response = base_url + "track=" + traccia + "&q_" + \
         "artist=" + artista + "&apikey=" + apikey
 
